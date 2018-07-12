@@ -3,6 +3,7 @@ def turn_count(board)
  while turn < board.length do
    if board[turn] == "X"
    turn += 1
+   return turn
  end
 end
 
