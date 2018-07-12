@@ -1,7 +1,7 @@
 def turn_count(board) 
  turn = 0 
  while turn < board.length do
-   if board[turn] == "X"
+   if board[turn] == "X" || board[turn] == "O"
    turn += 1
    return turn
  end
