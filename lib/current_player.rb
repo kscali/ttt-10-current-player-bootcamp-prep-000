@@ -1,13 +1,13 @@
-def turn_count(board)
+def turn_count(board) do
  turn = 0 
- while turn < board.length 
+ while turn < board.length do
    if board[turn] == "X"
    turn += 1
  end
 end
 
-def current_player(board)
-  if turn_count(board) % 2 == 0 
+def current_player(board) do
+  if turn_count(board) % 2 == 0 do
     return "X"
   else
     return "O"
