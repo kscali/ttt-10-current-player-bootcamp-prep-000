@@ -3,8 +3,8 @@ def turn_count(board)
  while turn < board.length do
    if board[turn] == "X" || board[turn] == "O"
    turn += 1
+   end
    return turn
- end
 end
 
 def current_player(board) 
