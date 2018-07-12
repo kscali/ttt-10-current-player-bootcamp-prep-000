@@ -9,7 +9,7 @@ end
 def current_player(board) do
   if turn_count(board) % 2 == 0 do
     return "X"
-  else
+  elsif
     return "O"
   end  
 end
