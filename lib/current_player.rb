@@ -1,4 +1,4 @@
-def turn_count(board) do
+def turn_count(board) 
  turn = 0 
  while turn < board.length do
    if board[turn] == "X"
