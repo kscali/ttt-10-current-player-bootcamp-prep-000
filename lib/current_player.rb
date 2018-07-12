@@ -12,4 +12,5 @@ def current_player(board)
   elsif
     return "O"
   end  
+ end
 end
